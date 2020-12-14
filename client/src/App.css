@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1024px) {
+  .navbar-start {
+    display: flex;
+  }
+  .navbar-item-mob {
+    padding: 1rem;
+  }
+  .board-title {
+    display: none;
+  }
+}
+
+.section {
+  padding-top: 1.5rem;
+}

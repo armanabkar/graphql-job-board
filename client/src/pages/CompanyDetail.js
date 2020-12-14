@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import { JobList } from './JobList';
-import { loadCompany } from './requests';
+import React, { Component } from "react";
+import { JobList } from "../components/JobList";
+import { loadCompany } from "../utils/requests";
 
 export class CompanyDetail extends Component {
   constructor(props) {
     super(props);
-    this.state = {company: null};
+    this.state = { company: null };
   }
 
   async componentDidMount() {
-    const {companyId} = this.props.match.params;
+    const { companyId } = this.props.match.params;
     const company = await loadCompany(companyId);
-    this.setState({company});
+    this.setState({ company });
   }
 
   render() {
-    const {company} = this.state;
+    const { company } = this.state;
     if (!company) {
       return null;
     }
