@@ -1,3 +1,12 @@
+html {
+  background-color: #fafafa;
+}
+
+a {
+  color: #50bbd7;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 1024px) {
   .navbar-start {
     display: flex;
@@ -12,4 +21,22 @@
 
 .section {
   padding-top: 1.5rem;
+}
+
+.company {
+  padding-top: 0.5rem;
+}
+
+.job-description {
+  height: 40%;
+}
+
+.card-header-title {
+  color: #50bbd7;
+  font-size: 1rem;
+  padding-left: 1.4rem;
+}
+
+.title {
+  color: #1c3d46;
 }

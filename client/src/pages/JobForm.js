@@ -54,7 +54,7 @@ export class JobForm extends Component {
             <div className="field">
               <div className="control">
                 <button
-                  className="button is-link"
+                  className="btn button is-info"
                   onClick={this.handleClick.bind(this)}
                 >
                   Submit
