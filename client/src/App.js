@@ -8,6 +8,7 @@ import { JobDetail } from "./pages/JobDetail";
 import { JobForm } from "./pages/JobForm";
 import { NavBar } from "./components/NavBar";
 import "./App.css";
+import About from "./pages/About";
 
 export class App extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ export class App extends Component {
             <div className="container">
               <Switch>
                 <Route exact path="/" component={JobBoard} />
+                <Route exact path="/about" component={About} />
                 <Route path="/companies/:companyId" component={CompanyDetail} />
                 <Route exact path="/jobs/new" component={JobForm} />
                 <Route path="/jobs/:jobId" component={JobDetail} />

@@ -27,8 +27,8 @@ a {
   padding-top: 0.5rem;
 }
 
-.job-description {
-  height: 40%;
+.box {
+  padding: 1rem;
 }
 
 .card-header-title {

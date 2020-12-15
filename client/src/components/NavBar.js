@@ -14,6 +14,9 @@ export class NavBar extends Component {
             <Link className="navbar-item navbar-item-mob" to="/jobs/new">
               Post Job
             </Link>
+            <Link className="navbar-item navbar-item-mob" to="/about">
+              About
+            </Link>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a className="navbar-item navbar-item-mob" onClick={onLogout}>
               Logout
@@ -30,6 +33,9 @@ export class NavBar extends Component {
             </Link>
             <Link className="navbar-item navbar-item-mob" to="/login">
               Login
+            </Link>
+            <Link className="navbar-item navbar-item-mob" to="/about">
+              About
             </Link>
           </div>
         </nav>

@@ -23,7 +23,7 @@ npm install
 npm start
 
 # Run frontend (:3000) & backend (:9000)
-cd client
+cd server
 npm run dev
 ```
 
