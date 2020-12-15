@@ -1,9 +1,9 @@
 # GraphQL Job Board
 
-> A simple application built with React & GraphQL.
+> A simple Job Board app built with React & GraphQL.
 
 <h2 align="center">
-  <img src="./screenshot.gif" alt="graphql-job-board" width="600px" />
+  <img src="./screenshots.gif" alt="graphql-job-board" width="600px" />
   <br>
 </h2>
 
